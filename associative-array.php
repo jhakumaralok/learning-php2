@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -15,6 +15,7 @@
     /*$grades["Pam"] = "F";
     echo $grades["Pam"];
     */
+    //echo count($grades);
     echo $grades[$_POST["student"]];
 
      ?>
